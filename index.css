@@ -1,14 +1,16 @@
 *{
     font-family: monospace;
-    background-color: rgb(115, 255, 0);
+    background-color: yellow;
     color: rgb(0, 0, 0);
     margin: 0%;
 }
+
 #res{
     font-size: 80px;
     text-align: right;
     margin-right: 0px;
-    border: 4px solid black;
+    border: 4px solid;    
+    border: black;
     background-color: black;
     color: blanchedalmond;
 }
@@ -21,18 +23,32 @@
     text-align: center;
     font-size: 30px;
     font-weight: 800;
-    padding: 10%;
     margin: auto;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: black;
 }
 .con{
-    margin: 8%;
+    margin: 5%;
 }
 .bts{
     margin-top: 60px;
     grid-template-columns: 25% 25% 25% 25%;
     display: grid;
     column-gap: 0px;
+}
+
+hr{
+    margin-top: 10%;
+    color: black;
+    background: black;
+    border: black;
+    height: 2px;
+}
+
+p{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 3%;
 }
 
 @media (min-width:320px){
@@ -42,7 +58,7 @@
     }
     #res{
         font-size: 50px;
-        margin-right: 5%;
+        margin-right: 0%;
     }
 }
 @media (min-width:375px){
@@ -52,7 +68,7 @@
     }
     #res{
         font-size: 50px;
-        margin-right: 5%;
+        margin-right: 0%;
     }
 }
 @media (min-width:425px){
@@ -62,7 +78,7 @@
     }
     #res{
         font-size: 60px;
-        margin-right: 3%;
+        margin-right: 0%;
     }
 }
 @media (min-width:768px){
@@ -82,7 +98,6 @@
     }
     #res{
         font-size: 65px;
-        margin-right: 8%;
     }
 }
 @media (min-width:1440px){
@@ -92,6 +107,24 @@
     }
     #res{
         font-size: 70px;
+    }
+    body{
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (min-width:2560px){
+    #btn{
+        height: 120px;
+        width: 120px;
+        font-size: 40px;
+    }
+    #res{
+        font-size: 70px;
         margin-right: 9%;
+    }
+    body{
+        width: 70%;
+        margin: auto;
     }
 }
